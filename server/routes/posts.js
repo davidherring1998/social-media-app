@@ -1,6 +1,6 @@
 import pkg from 'express';
 const express = pkg;
-import { getFeedPost, getUserPosts, likePost } from '../controllers/post.js';
+import { getFeedPost, getUserPosts, likePost } from '../controllers/posts.js';
 import { verifyToken } from '../middleware/auth.js';
 
 const router = express.Router();
